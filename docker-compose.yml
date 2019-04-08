@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
  mongodb:
    image: mongo:3.3   
@@ -12,7 +12,7 @@ services:
     - rsvpnet
 
  web:
-   image: teamcloudyuga/rsvpapp:mooc
+   image: venky626/rsvpapp:mooc
    ports:
     - "5000:5000"
    environment:
