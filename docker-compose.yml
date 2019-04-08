@@ -18,10 +18,10 @@ services:
    environment:
     MONGODB_HOST: mongodb
     LINK: http://www.meetup.com/cloudyuga/
-    TEXT1: CloudYuga 
+    TEXT1: Venky 
     TEXT2: Garage RSVP!
-    LOGO: https://raw.githubusercontent.com/cloudyuga/rsvpapp/master/static/cloudyuga.png
-    COMPANY: CloudYuga Technology Pvt. Ltd.
+    LOGO: https://raw.githubusercontent.com/venky626/rsvpapp/master/static/cloudyuga.png
+    COMPANY: Venky Technology Pvt. Ltd.
    networks:
     - rsvpnet
 
